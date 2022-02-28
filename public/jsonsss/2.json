@@ -1,0 +1,16 @@
+{
+  "dna": "110101",
+  "name": "#2",
+  "description": "This is  a FIT PIGGYs living on the metaverse",
+  "image": "https://gateway.pinata.cloud/ipfs/QmYYaArSP18DKbKt7c4MGbYtW2e2bw6iVQZ5gkJNqPMimC/2.png",
+  "edition": 2,
+  "date": 1642796358087,
+  "attributes": [
+    { "trait_type": "Body", "value": "Brown" },
+    { "trait_type": "Eyes", "value": "Red" },
+    { "trait_type": "Clothes", "value": "Empty" },
+    { "trait_type": "Mouth", "value": "Cigar" },
+    { "trait_type": "Accessories", "value": "Empty" },
+    { "trait_type": "Glasses", "value": "Sunglasses" }
+  ]
+}
