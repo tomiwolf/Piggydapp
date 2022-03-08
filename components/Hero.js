@@ -61,8 +61,8 @@ const Hero = () => {
         <div className="flex flex-col items-center">
           <Image
             src="/images/preview.gif"
-            width="400"
-            height="400"
+            width="350"
+            height="350"
             alt="emoji faces gif"
             className="rounded-md"
           />
@@ -76,15 +76,38 @@ const Hero = () => {
               </p>
 
               <div className="flex items-center mt-6 text-3xl font-bold text-gray-200">
+            
+                <button
+                  className="flex items-center justify-center w-12 h-12 bg-white rounded-md hover:bg-pink-200 text-center"
+                  onClick={decrementCount}
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="w-8 h-8 text-pink-600"
+                    fill="none"
+                    viewBox="0 0 22 22"
+                    stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      d="M20 12H4"
+                    />
+                  </svg>
+                </button>
+
+                <h2 className="mx-14">{count}</h2>
+
                 <button
                   className="flex items-center justify-center w-12 h-12 bg-white rounded-md text-black hover:bg-pink-200 text-center"
                   onClick={incrementCount}
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="w-6 h-6 text-pink-400"
+                    className="w-8 h-8 text-pink-600"
                     fill="none"
-                    viewBox="0 0 24 24"
+                    viewBox="0 0 22 22"
                     stroke="currentColor"
                   >
                     <path
@@ -96,27 +119,7 @@ const Hero = () => {
                   </svg>
                 </button>
 
-                <h2 className="mx-8">{count}</h2>
-
-                <button
-                  className="flex items-center justify-center w-12 h-12 bg-white rounded-md hover:bg-pink-200 text-center"
-                  onClick={decrementCount}
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="w-6 h-6 text-pink-400"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M20 12H4"
-                    />
-                  </svg>
-                </button>
+                
               </div>
 
               <h4 className="mt-2 font-semibold text-center text-white">
@@ -126,7 +129,7 @@ const Hero = () => {
 
               {/* Mint Button */}
               <button
-                className="mt-6 py-2 px-4 text-center text-white uppercase bg-pink-500 border-b-4 border-pink-700 rounded hover:bg-pink-400 hover:border-pink-500"
+                className="mt-12 py-7 px-8 text-center text-white uppercase bg-pink-500 border-b-3 border-pink-700 rounded hover:bg-pink-400 hover:border-pink-500"
                 onClick={mintEmojiFace}
               >
                 Mint now!

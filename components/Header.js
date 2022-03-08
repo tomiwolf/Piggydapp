@@ -64,23 +64,23 @@ const Header = () => {
 
           <nav aria-label="Main Menu">
             <ul className="flex items-center space-x-8">
-              <li className="text-gray-200 text-semibold">
+              {/* <li className="text-gray-200 text-semibold">
                 <Link href="#about">
                   <a>About</a>
                 </Link>
-              </li>
+              </li> */}
 
-              <li className="text-gray-200 text-semibold">
+              {/* <li className="text-gray-200 text-semibold">
                 <Link href="#gallery">
                   <a>The Gallery</a>
                 </Link>
-              </li>
+              </li> */}
 
-              <li className="text-gray-200 text-semibold">
+              {/* <li className="text-gray-200 text-semibold">
                 <Link href="#faq">
                   <a>FAQ</a>
                 </Link>
-              </li>
+              </li> */}
 
               <li className="hover:text-purple-500 hover:border-purple-500 cursor-pointer px-4 py-2 font-extrabold text-purple-300 border border-purple-300 rounded-md">
                 <a

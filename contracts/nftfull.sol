@@ -1,18 +1,3 @@
-// SPDX-License-Identifier: GPL-3.0
-
-// Amended by HashLips
-/**
-    !Disclaimer!
-    These contracts have been used to create tutorials,
-    and was created for the purpose to teach people
-    how to create smart contracts on the blockchain.
-    please review this code on your own before using any of
-    the following code for production.
-    HashLips will not be liable in any way if for the use 
-    of the code. That being said, the code has been tested 
-    to the best of the developers' knowledge to work as intended.
-*/
-
 pragma solidity >=0.7.0 <0.9.0;
 
 import "@openzeppelin/contracts/token/ERC721/extensions/ERC721Enumerable.sol";
@@ -26,11 +11,11 @@ contract NFT is ERC721Enumerable, Ownable {
   string public baseExtension = ".json";
   string public notRevealedUri;
   uint256 public cost = 0.1 ether;
-  uint256 public whitelistCost = 0.1 ether;
+  //uint256 public whitelistCost = 0.1 ether;
   uint256 public maxSupply = 7777;
   uint256 public maxMintAmount = 50;
   uint256 public nftPerAddressLimit = 20;
-  uint256 public devReserve = 64;
+//  uint256 public devReserve = 64;
   bool public saleIsActive = true;
   // bool public paused = false;
   bool public revealed = true;
@@ -69,7 +54,7 @@ contract NFT is ERC721Enumerable, Ownable {
             require(isWhitelisted(msg.sender), "user is not whitelisted");
             uint256 ownerMintedCount = addressMintedBalance[msg.sender];
             require(ownerMintedCount + _mintAmount <= nftPerAddressLimit, "max NFT per address exceeded");
-            require(msg.value >= whitelistCost * _mintAmount, "insufficient funds");
+           // require(msg.value >= whitelistCost * _mintAmount, "insufficient funds");
 
         }
         require(msg.value >= cost * _mintAmount, "insufficient funds");
