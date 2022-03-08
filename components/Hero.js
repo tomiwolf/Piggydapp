@@ -56,13 +56,13 @@ const Hero = () => {
   };
 
   return (
-    <main id="main" className="h-screen py-50 bg-pattern">
+    <main id="main" className="h-screen py-70 bg-pattern">
       <div className="container max-w-5xl mx-auto flex flex-col items-center pt-4">
         <div className="flex flex-col items-center">
           <Image
             src="/images/preview.gif"
-            width="350"
-            height="350"
+            width="340"
+            height="340"
             alt="emoji faces gif"
             className="rounded-md"
           />
@@ -129,14 +129,14 @@ const Hero = () => {
 
               {/* Mint Button */}
               <button
-                className="mt-10 py-6 px-6 text-center text-white uppercase bg-pink-500 border-b-3 border-pink-700 rounded hover:bg-pink-400 hover:border-pink-500"
+                className="mt-6 py-2 px-4 text-center text-white uppercase bg-pink-500 border-b-4 border-pink-700 rounded hover:bg-pink-400 hover:border-pink-500"
                 onClick={mintEmojiFace}
               >
                 Mint now!
               </button>
             </>
           ) : (
-            <p className="text-white text-2xl mt-4">
+            <p className="text-white text-1xl mt-2">
               {" "}
               😥 Sale is not active yet!
             </p>
@@ -145,7 +145,7 @@ const Hero = () => {
           {/* Status */}
 
           {status && (
-            <div className="flex items-center justify-center px-4 py-3 mt-5 font-semibold text-white bg-red-400 rounded-md ">
+            <div className="mt-2 font-semibold text-center text-white">
               {status}
             </div>
           )}
