@@ -78,7 +78,7 @@ const Hero = () => {
               <div className="flex items-center mt-6 text-3xl font-bold text-gray-200">
             
                 <button
-                  className="flex items-center justify-center w-12 h-12 bg-white rounded-md hover:bg-pink-200 text-center"
+                  className="flex items-center justify-center w-10 h-10 bg-white rounded-md hover:bg-pink-200 text-center"
                   onClick={decrementCount}
                 >
                   <svg
@@ -100,7 +100,7 @@ const Hero = () => {
                 <h2 className="mx-14">{count}</h2>
 
                 <button
-                  className="flex items-center justify-center w-12 h-12 bg-white rounded-md text-black hover:bg-pink-200 text-center"
+                  className="flex items-center justify-center w-10 h-10 bg-white rounded-md text-black hover:bg-pink-200 text-center"
                   onClick={incrementCount}
                 >
                   <svg
@@ -129,14 +129,14 @@ const Hero = () => {
 
               {/* Mint Button */}
               <button
-                className="mt-12 py-7 px-8 text-center text-white uppercase bg-pink-500 border-b-3 border-pink-700 rounded hover:bg-pink-400 hover:border-pink-500"
+                className="mt-10 py-6 px-6 text-center text-white uppercase bg-pink-500 border-b-3 border-pink-700 rounded hover:bg-pink-400 hover:border-pink-500"
                 onClick={mintEmojiFace}
               >
                 Mint now!
               </button>
             </>
           ) : (
-            <p className="text-white text-2xl mt-8">
+            <p className="text-white text-2xl mt-4">
               {" "}
               😥 Sale is not active yet!
             </p>
@@ -145,7 +145,7 @@ const Hero = () => {
           {/* Status */}
 
           {status && (
-            <div className="flex items-center justify-center px-4 py-4 mt-8 font-semibold text-white bg-red-400 rounded-md ">
+            <div className="flex items-center justify-center px-4 py-3 mt-5 font-semibold text-white bg-red-400 rounded-md ">
               {status}
             </div>
           )}
