@@ -104,7 +104,7 @@ const Header = () => {
           {/* Opensea Twitter Discord Links */}
           <nav aria-label="Contact Menu">
             <ul className="flex items-center space-x-6">
-              <li>
+              {/* <li>
                 <a href="https://opensea.io" target="_blank" rel="noreferrer">
                   <svg
                     className="w-7 h-7"
@@ -118,7 +118,7 @@ const Header = () => {
                     ></path>
                   </svg>
                 </a>
-              </li>
+              </li> */}
 
               <li>
                 <a
