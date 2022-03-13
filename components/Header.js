@@ -82,7 +82,7 @@ const Header = () => {
                 </Link>
               </li> */}
 
-              <li className="hover:text-white-500 hover:border-white-500 cursor-pointer px-4 py-2 font-extrabold text-white-300 border border-white-300 rounded-md">
+              <li className="hover:text-white-500 hover:border-white-500 cursor-pointer px-4 py-2 font-extrabold text-white-300 border border-white-300 rounded-md btnhover">
                 <a
                   className=""
                   id="walletButton"
