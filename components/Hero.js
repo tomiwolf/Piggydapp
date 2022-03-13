@@ -60,9 +60,9 @@ const Hero = () => {
       <div className="container max-w-5xl mx-auto flex flex-col items-center pt-4">
         <div className="flex flex-col items-center">
           <Image
-            src="/images/logo2.png"
-            width="340"
-            height="340"
+            src="/images/logo2.svg"
+            width="220"
+            height="220"
             alt="emoji faces gif"
             className="rounded-md"
           />
