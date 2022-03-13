@@ -109,6 +109,9 @@ html {
 color: #ffaced;
 border-color: #ffaced;
 }
+.ulcenter {
+  width: 140px;
+}
 
 @keyframes gradient-animation {
   0% {
