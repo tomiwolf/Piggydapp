@@ -72,7 +72,7 @@ const Hero = () => {
               {/* Minted NFT Ratio */}
               <p className="bg-gray-100 rounded-md text-gray-800 font-extrabold text-lg my-4 py-1 px-3">
                 <span className="text-pink-600">{`${totalSupply}`}</span> /
-                7.777
+                9.876
               </p>
 
               <div className="flex items-center mt-6 text-3xl font-bold text-gray-200">

@@ -106,8 +106,8 @@ html {
 }
 
 .btnhover:hover{
-color: #ff82e4;
-border-color: #ff82e4;
+color: #ffaced;
+border-color: #ffaced;
 }
 
 @keyframes gradient-animation {
