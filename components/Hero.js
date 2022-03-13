@@ -129,7 +129,7 @@ const Hero = () => {
 
               {/* Mint Button */}
               <button
-                className="mt-6 py-2 px-4 text-center text-white uppercase bg-pink-500 border-b-4 border-pink-700 rounded hover:bg-pink-400 hover:border-pink-500"
+                className="mintnowbtn"
                 onClick={mintEmojiFace}
               >
                 Mint now!
