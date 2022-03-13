@@ -48,7 +48,7 @@ const Header = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <header className="sticky inset-x-0 top-0 z-10 h-20 min-w-full text-white border-b border-white-400 bg-primary backdrop-filter backdrop-blur-lg bg-opacity-30">
+      <header className="sticky inset-x-0 top-0 z-10 h-20 min-w-full text-white border-b border-white-400 bg-primary backdrop-filter backdrop-blur-lg bg-opacity-30 header">
         <div className="flex items-center container mx-auto max-w-7xl justify-between h-full">
           {/* Logo */}
           <Link href="#">
@@ -82,7 +82,7 @@ const Header = () => {
                 </Link>
               </li> */}
 
-              <li className="hover:text-pink-500 hover:border-pink-500 cursor-pointer px-4 py-2 font-extrabold text-pink-300 border border-pink-300 rounded-md">
+              <li className="hover:text-white-500 hover:border-white-500 cursor-pointer px-4 py-2 font-extrabold text-white-300 border border-white-300 rounded-md">
                 <a
                   className=""
                   id="walletButton"
