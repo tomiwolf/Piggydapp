@@ -132,11 +132,11 @@ const Hero = () => {
                 className="mintnowbtn"
                 onClick={mintPiggy}
               >
-                Mint now!
+                MINT NOW!
               </button>
             </>
           ) : (
-            <p className="text-white text-1xl mt-2">
+            <p className="text-white text-1xl mt-2 spantitle2">
               {" "}
               😥 Sale is not active yet!
             </p>

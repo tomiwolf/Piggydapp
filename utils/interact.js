@@ -33,6 +33,7 @@ export const connectWallet = async () => {
             {" "}
             🦊{" "}
             <a
+              className="spantitle2"
               target="_blank"
               rel="noreferrer"
               href="https://metamask.io/download.html"
@@ -80,6 +81,7 @@ export const getCurrentWalletConnected = async () => {
             {" "}
             🦊{" "}
             <a
+            className="spantitle2"
               target="_blank"
               rel="noreferrer"
               href="https://metamask.io/download.html"

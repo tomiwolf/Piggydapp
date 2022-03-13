@@ -43,7 +43,7 @@ const Header = () => {
   return (
     <>
       <Head>
-        <title>Nasty PIGGYS NFT</title>
+        <title>Nasty Pigs Mint</title>
         <meta name="description" content="Nft Minting Tutorial" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -56,7 +56,7 @@ const Header = () => {
               <span className="pr-2 text-transparent bg-clip-text bg-gradient-to-br from-pink-400 to-purple-600">
                 NASTY
               </span>
-              PIGGYS
+              PIGS
             </a>
           </Link>
 
@@ -94,7 +94,7 @@ const Header = () => {
                     "..." +
                     String(walletAddress).substring(38)
                   ) : (
-                    <span>Connect Wallet</span>
+                    <span className="spantitle">Connect Wallet</span>
                   )}
                 </a>
               </li>
