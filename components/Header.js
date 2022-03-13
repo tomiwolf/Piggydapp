@@ -52,7 +52,7 @@ const Header = () => {
         <div className="flex items-center container mx-auto max-w-7xl justify-between h-full">
           {/* Logo */}
           <Link href="#">
-            <a className="text-2xl font-bold">
+            <a className="text-2xl font-bold title">
               <span className="pr-2 text-transparent bg-clip-text bg-gradient-to-br from-pink-400 to-purple-600">
                 NASTY
               </span>
@@ -82,7 +82,7 @@ const Header = () => {
                 </Link>
               </li> */}
 
-              <li className="hover:text-purple-500 hover:border-purple-500 cursor-pointer px-4 py-2 font-extrabold text-purple-300 border border-purple-300 rounded-md">
+              <li className="hover:text-pink-500 hover:border-pink-500 cursor-pointer px-4 py-2 font-extrabold text-pink-300 border border-pink-300 rounded-md">
                 <a
                   className=""
                   id="walletButton"
