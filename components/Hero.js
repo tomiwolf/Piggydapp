@@ -60,7 +60,7 @@ const Hero = () => {
       <div className="container max-w-5xl mx-auto flex flex-col items-center pt-4">
         <div className="flex flex-col items-center">
           <Image
-            src="/images/preview.gif"
+            src="/images/logo2.png"
             width="340"
             height="340"
             alt="emoji faces gif"

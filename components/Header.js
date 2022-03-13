@@ -43,7 +43,7 @@ const Header = () => {
   return (
     <>
       <Head>
-        <title>FIT PIGGYS NFT</title>
+        <title>Nasty PIGGYS NFT</title>
         <meta name="description" content="Nft Minting Tutorial" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -54,7 +54,7 @@ const Header = () => {
           <Link href="#">
             <a className="text-2xl font-bold">
               <span className="pr-2 text-transparent bg-clip-text bg-gradient-to-br from-pink-400 to-purple-600">
-                FIT
+                NASTY
               </span>
               PIGGYS
             </a>
