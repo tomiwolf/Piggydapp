@@ -52,7 +52,7 @@ html {
 }
 .mintnowbtn{
     margin: 20px;
-    padding: 1.8rem 5rem;
+    padding: 1rem 3rem;
     background: linear-gradient( 95.19deg, rgba(0, 0, 0, 0.25) 9.07%, #ed7ae1 85.72% );
     box-shadow: 10px 10px 40px rgb(255 0 229 / 70%);
     border-radius: 100px;
@@ -72,6 +72,14 @@ html {
     line-height: 7.1rem;
 }
 
+.h-screen {
+  height: 100%;
+}
+
+.bg-primary {
+  --tw-bg-opacity: 1;
+  background-color: #000000
+}
 @keyframes gradient-animation {
   0% {
     background-position: 0% 50%;
