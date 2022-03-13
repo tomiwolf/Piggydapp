@@ -48,7 +48,7 @@ const Header = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <header className="sticky inset-x-0 top-0 z-10 h-20 min-w-full text-white border-b border-purple-900 bg-primary backdrop-filter backdrop-blur-lg bg-opacity-30">
+      <header className="sticky inset-x-0 top-0 z-10 h-20 min-w-full text-white border-b border-white-400 bg-primary backdrop-filter backdrop-blur-lg bg-opacity-30">
         <div className="flex items-center container mx-auto max-w-7xl justify-between h-full">
           {/* Logo */}
           <Link href="#">
