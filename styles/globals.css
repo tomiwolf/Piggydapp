@@ -11,8 +11,7 @@ html {
 }
 
 .bg-pattern {
-  background-color: #7d08ff;
-  background-image: url("../public/Slice2.png");
+  background-color: #000000;
   background-attachment: fixed;
   background-size: cover;
 }
