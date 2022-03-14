@@ -57,9 +57,15 @@ const Hero = () => {
 
   return (
     <main id="main" className="h-screen py-70 bg-pattern">
-      <div>
-      <img class="group-41x-1" src="public/group-4@1x2.svg" />
-      </div>
+
+{/* <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 841.9 595.3">
+        <g fill="#61DAFB">
+          <path d=""/>
+          <circle cx="420.9" cy="296.5" r="45.7"/>
+          <path d="M520.5 78.1z"/>
+        </g>
+      </svg>
+   */}
 
 
 
