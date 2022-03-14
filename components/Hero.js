@@ -58,6 +58,16 @@ const Hero = () => {
   return (
     <main id="main" className="h-screen py-70 bg-pattern">
 
+<div className="back">
+<Image
+            src="/images/rayo.svg"
+            width="220"
+            height="600"
+            alt="rayo"
+            className="rayo"
+          />
+</div>
+
 {/* <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 841.9 595.3">
         <g fill="#61DAFB">
           <path d=""/>
@@ -68,7 +78,7 @@ const Hero = () => {
    */}
 
 
-
+<div className="front">
       <div className="container max-w-5xl mx-auto flex flex-col items-center pt-4">
         <div className="flex flex-col items-center">
           <Image
@@ -79,6 +89,7 @@ const Hero = () => {
             className="rounded-md"
           />
 
+        
           {isSaleActive ? (
             <>
               {/* Minted NFT Ratio */}
@@ -163,8 +174,11 @@ const Hero = () => {
           )}
         </div>
       </div>
+      </div>
     </main>
   );
 };
+
+
 
 export default Hero;
