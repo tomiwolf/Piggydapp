@@ -114,6 +114,14 @@ border-color: #ffaced;
 }
 
 
+
+.rayo{
+top: -180px;
+}
+
+.back{
+  position: absolute;
+}
 @keyframes gradient-animation {
   0% {
     background-position: 0% 50%;
