@@ -58,9 +58,7 @@ const Hero = () => {
   return (
     <main id="main" className="h-screen py-70 bg-pattern">
 
-<<<<<<< HEAD
-=======
-<div className="back">
+{/* <div className="back">
 <Image
             src="/images/rayo.svg"
             width="220"
@@ -68,7 +66,7 @@ const Hero = () => {
             alt="rayo"
             className="rayo"
           />
-</div>
+</div> */}
 
 {/* <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 841.9 595.3">
         <g fill="#61DAFB">
@@ -78,19 +76,18 @@ const Hero = () => {
         </g>
       </svg>
    */}
->>>>>>> 0f45ca7d725ca73d426fb2002dd1ba83ee7ad035
 
 
 <div className="front">
       <div className="container max-w-5xl mx-auto flex flex-col items-center pt-4">
         <div className="flex flex-col items-center">
-          {/* <Image
+          <Image
             src="/images/logo2.svg"
             width="220"
             height="220"
             alt="emoji faces gif"
             className="rounded-md"
-          /> */}
+          />
 
         
           {isSaleActive ? (
