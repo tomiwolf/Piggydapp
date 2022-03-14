@@ -168,7 +168,7 @@ const Hero = () => {
           {/* Status */}
 
           {status && (
-            <div className="mt-2 font-semibold text-center text-white">
+            <div className="mt-2 font-semibold text-center text-white latofont">
               {status}
             </div>
           )}
