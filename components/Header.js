@@ -127,7 +127,7 @@ const Header = () => {
                   rel="noreferrer"
                 >
                   <svg
-                    className="w-7 h-7"
+                    className="w-7 h-7 zoomhover"
                     stroke="currentColor"
                     fill="currentColor"
                     strokeWidth="0"
@@ -146,7 +146,7 @@ const Header = () => {
                   rel="noreferrer"
                 >
                   <svg
-                    className="w-7 h-7"
+                    className="w-7 h-7 zoomhover"
                     stroke="currentColor"
                     fill="currentColor"
                     strokeWidth="0"
