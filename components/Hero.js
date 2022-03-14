@@ -62,7 +62,7 @@ const Hero = () => {
 <Image
             src="/images/rayo.svg"
             width="220"
-            height="600"
+            height="500"
             alt="rayo"
             className="rayo"
           />
