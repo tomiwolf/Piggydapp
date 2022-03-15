@@ -242,28 +242,33 @@ flex-basis: 33.33%;
 
 @media (min-height: 750px) {
   .heightres{
-    padding-top: 3.5rem;
+    padding-top: 4rem;
   }
 }
 
 @media (min-height: 800px) {
   .heightres{
-    padding-top: 4.5rem;
+    padding-top: 5.5rem;
   }
 }
 
 @media (min-height: 850px) {
   .heightres{
-    padding-top: 5.5rem;
+    padding-top: 6.5rem;
   }
 }
 
 @media (min-height: 900px) {
   .heightres{
-    padding-top: 6.5rem;
+    padding-top: 7.5rem;
   }
 }
 
+@media (min-height: 930px) {
+  .heightres{
+    padding-top: 9rem;
+  }
+}
 
 @media (min-height: 1024px) {
   .heightres{
