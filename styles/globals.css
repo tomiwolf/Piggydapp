@@ -215,6 +215,23 @@ flex-basis: 33.33%;
             justify-content: right;
           }
 
+          .hover2{
+            transition: all 0.6s;
+    -webkit-transition: all 0.6s;
+    -o-transition: all 0.6s;
+          }
+
+
+    .hover2:hover{
+      
+            transform: scale(1.35);
+            -webkit-transform: scale(1.35);
+            -ms-transform: scale(1.35);
+            -webkit-transition: all 0.7s;
+            -o-transition: all 0.7s;
+            transition: all 0.7s;
+    }
+
 @media (max-width: 660px) {
             .title{
               font-size: 1.9rem;
