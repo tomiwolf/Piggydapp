@@ -17,8 +17,8 @@ export default function Home() {
   );
   <Router>
   
-      <Link to="/freemint">freeee</Link>
-      <Link to="/presale">pree</Link>
+      <Link to="/freemint"></Link>
+      <Link to="/presale"></Link>
 
       <Switch>
         <Route path="/freemint" component={freemint}/>

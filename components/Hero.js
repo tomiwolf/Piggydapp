@@ -155,7 +155,7 @@ const Hero = () => {
                 className="mintnowbtn"
                 onClick={mintPiggy}
               >
-                MINT NOW!
+                MINT IS OFFLINE!
               </button>
             </>
           ) : (

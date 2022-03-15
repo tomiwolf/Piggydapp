@@ -155,7 +155,7 @@ const HeroFreemint = () => {
                 className="mintnowbtn"
                 onClick={mintPiggy}
               >
-                MINT NOW!
+                FREE MINT!
               </button>
             </>
           ) : (
