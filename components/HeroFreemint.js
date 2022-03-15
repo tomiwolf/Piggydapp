@@ -101,7 +101,7 @@ const HeroFreemint = () => {
               <div className="flex items-center mt-6 text-3xl font-bold text-gray-200">
             
                 <button
-                  className="flex items-center justify-center w-12 h-12 bg-white rounded-full hover:bg-pink-200 text-center"
+                  className="flex items-center justify-center w-12 h-12 bg-transparent rounded-full text-center hover2"
                   onClick={decrementCount}
                 >
                   <svg
@@ -123,7 +123,7 @@ const HeroFreemint = () => {
                 <h2 className="mx-14">{count}</h2>
 
                 <button
-                  className="flex items-center justify-center w-12 h-12 bg-white rounded-full text-black hover:bg-pink-200 text-center"
+                  className="flex items-center justify-center w-12 h-12 bg-transparent rounded-full text-black text-center hover2"
                   onClick={incrementCount}
                 >
                   <svg
