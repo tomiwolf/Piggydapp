@@ -228,6 +228,55 @@ flex-basis: 33.33%;
   }
 }
 
+@media (min-height: 667px) {
+  .heightres{
+    padding-top: 1.5rem;
+  }
+}
+
+@media (min-height: 700px) {
+  .heightres{
+    padding-top: 2.5rem;
+  }
+}
+
+@media (min-height: 750px) {
+  .heightres{
+    padding-top: 3.5rem;
+  }
+}
+
+@media (min-height: 800px) {
+  .heightres{
+    padding-top: 4.5rem;
+  }
+}
+
+@media (min-height: 850px) {
+  .heightres{
+    padding-top: 5.5rem;
+  }
+}
+
+@media (min-height: 900px) {
+  .heightres{
+    padding-top: 6.5rem;
+  }
+}
+
+
+@media (min-height: 1024px) {
+  .heightres{
+    padding-top: 11.5rem;
+  }
+}
+
+@media (min-height: 1180px) {
+  .heightres{
+    padding-top: 15.5rem;
+  }
+}
+
 @keyframes gradient-animation {
   0% {
     background-position: 0% 50%;

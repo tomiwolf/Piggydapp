@@ -79,7 +79,7 @@ const Hero = () => {
 
 
 <div className="front">
-      <div className="container max-w-5xl mx-auto flex flex-col items-center pt-4">
+      <div className="container max-w-5xl mx-auto flex flex-col items-center pt-4 heightres">
         <div className="flex flex-col items-center">
           <Image
             src="/images/logo2.svg"
