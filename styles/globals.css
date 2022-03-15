@@ -148,9 +148,7 @@ transition: all 0.7s;
   transition: all 0.7s;
   }
 
-.ulcenter {
-  width: 140px;
-}
+
 
 
 
@@ -191,6 +189,44 @@ top: -180px;
     font-family: Lato, sans-serif;
     font-weight: 400;
   }
+
+  .headerstyle{
+    padding: 0 15px;
+    gap: 10px;
+  }
+
+  .headertitle{
+flex-basis: 33.33%;
+  }
+
+  .headerwallet{
+    flex-basis: 33.33%;
+      }
+
+      .centerwallet {
+        justify-content: center;
+      }
+
+      .headermedia{
+        flex-basis: 33.33%;
+          }
+
+          .rightmedia{
+            justify-content: right;
+          }
+
+@media (max-width: 660px) {
+            .title{
+              font-size: 1.9rem;
+            }
+          }
+
+          
+@media (max-width: 500px) {
+  .title{
+    font-size: 1.6rem;
+  }
+}
 
 @keyframes gradient-animation {
   0% {

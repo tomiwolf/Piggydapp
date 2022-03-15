@@ -49,10 +49,10 @@ const Header = () => {
       </Head>
 
       <header className="sticky inset-x-0 top-0 z-10 h-20 min-w-full text-white border-b border-white-400 bg-primary backdrop-filter backdrop-blur-lg bg-opacity-30 header">
-        <div className="flex items-center container mx-auto max-w-7xl justify-between h-full">
+        <div className="flex items-center container mx-auto max-w-7xl justify-between h-full headerstyle">
           {/* Logo */}
           <Link href="#">
-            <a className="text-2xl font-bold title">
+            <a className="text-2xl font-bold title headertitle">
               <span className="pr-2 text-transparent bg-clip-text bg-gradient-to-br from-pink-400 to-purple-600">
                 NASTY
               </span>
@@ -62,8 +62,8 @@ const Header = () => {
 
           {/* Navigation */}
 
-          <nav aria-label="Main Menu">
-            <ul className="flex items-center space-x-8">
+          <nav aria-label="Main Menu" className="headerwallet">
+            <ul className="flex items-center space-x-8 centerwallet">
               {/* <li className="text-gray-200 text-semibold">
                 <Link href="#about">
                   <a>About</a>
@@ -84,7 +84,6 @@ const Header = () => {
 
               <li className="hover:text-white-500 hover:border-white-500 cursor-pointer px-4 py-2 font-extrabold text-white-300 border border-white-300 rounded-md btnhover">
                 <a
-                  className=""
                   id="walletButton"
                   onClick={connectWalletPressed}
                 >
@@ -102,8 +101,9 @@ const Header = () => {
           </nav>
 
           {/* Opensea Twitter Discord Links */}
-          <nav aria-label="Contact Menu">
-            <ul className="flex items-center space-x-6 ulcenter">
+          <nav aria-label="Contact Menu"
+          className="headermedia">
+            <ul className="flex items-center space-x-6 rightmedia">
               {/* <li>
                 <a href="https://opensea.io" target="_blank" rel="noreferrer">
                   <svg
